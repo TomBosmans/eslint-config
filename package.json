@@ -1,18 +1,18 @@
 {
-  "name": "@tbosmans/typescript-styleguide",
-  "version": "1.0.2",
+  "name": "@tbosmans/eslint-config",
+  "version": "1.0.0",
   "description": "Styleguide for typescript projects.",
-  "main": "eslintrc.js",
+  "main": "index.js",
   "files": [
-    "prettierrc.js",
-    "eslintrc.js"
+    "index.js",
+    "prettierrc.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TomBosmans/typescript-styleguide.git"
+    "url": "git+https://github.com/TomBosmans/eslint-config.git"
   },
   "keywords": [
     "styleguide",
@@ -23,9 +23,9 @@
   "author": "Tom Bosmans",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TomBosmans/typescript-styleguide/issues"
+    "url": "https://github.com/TomBosmans/eslint-config/issues"
   },
-  "homepage": "https://github.com/TomBosmans/typescript-styleguide#readme",
+  "homepage": "https://github.com/TomBosmans/eslint-config#readme",
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.45.0",
     "@typescript-eslint/parser": "^5.45.0",
