@@ -1,8 +1,8 @@
 {
   "name": "@tbosmans/typescript-styleguide",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Styleguide for typescript projects.",
-  "main": "index.js",
+  "main": "eslintrc.js",
   "files": [
     "index.js",
     "prettier.config.js",
