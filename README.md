@@ -4,7 +4,7 @@ npm install --save-dev @tbosmans/eslint-config
 ```
 inside your package.json:
 ```json
-  "prettier": "@tbosmans/eslint-config/prettierrc"
+  "prettier": "@tbosmans/eslint-config/prettierrc",
   "scripts": {
     "format": "prettier --write .",
     "format:check": "prettier --check .",
