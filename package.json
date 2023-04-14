@@ -5,7 +5,13 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "prettierrc.js"
+    "prettierrc.js",
+    "default.js",
+    "jest.js",
+    "node.js",
+    "react.js",
+    "typescript.js",
+    "vitest.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
