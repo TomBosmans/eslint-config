@@ -1,29 +1,10 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true,
-    node: true,
-    "jest/globals": true,
-  },
   extends: [
-    "eslint:recommended",
-    "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended",
+    "@tbosmans/eslint-config/default",
+    "@tbosmans/eslint-config/node",
+    "@tbosmans/eslint-config/typescript",
+    "@tbosmans/eslint-config/react",
+    "@tbosmans/eslint-config/jest",
+    "@tbosmans/eslint-config/vitest",
   ],
-  overrides: [],
-  parser: "@typescript-eslint/parser",
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-  },
-  settings: {
-    react: {
-      version: "detect",
-    },
-  },
-  plugins: ["react", "@typescript-eslint", "prettier", "jest"],
-  rules: {
-    "react/react-in-jsx-scope": "off",
-  },
 };
