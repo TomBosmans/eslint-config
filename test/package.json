@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "eslint --fix .",
+    "lint:check": "eslint ."
+  },
+  "devDependencies": {
+    "@tbosmans/eslint-config": "file:../",
+    "typescript": "^5.0.4"
+  },
+  "prettier": "@tbosmans/eslint-config/prettierrc",
+  "eslintConfig": {
+    "extends": [
+      "@tbosmans/eslint-config/default",
+      "@tbosmans/eslint-config/typescript"
+    ]
+  }
+}
