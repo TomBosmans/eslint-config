@@ -1,0 +1,17 @@
+name: Auto Merge Dependencies
+
+on:
+  pull_request:
+    types: [labeled]
+
+jobs:
+  automerge:
+    permissions: write-all
+    runs-on: ubuntu-latest
+    if: contains(github.event.pull_request.labels.*.name, 'dependencies')
+    steps:
+      - name: Enable auto-merge for dependencies PRs
+        run: gh pr merge --auto --rebase "$PR_URL"
+        env:
+          PR_URL: ${{github.event.pull_request.html_url}}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
