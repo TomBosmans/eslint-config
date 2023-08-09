@@ -1,6 +1,6 @@
 {
   "name": "@tbosmans/eslint-config",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Styleguide for typescript projects.",
   "main": "index.js",
   "files": [
