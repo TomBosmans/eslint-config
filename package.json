@@ -34,7 +34,7 @@
   "homepage": "https://github.com/TomBosmans/eslint-config#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^8.0.1",
-    "@typescript-eslint/parser": "^7.0.2",
+    "@typescript-eslint/parser": "^8.1.0",
     "eslint": "^8.46.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jest": "^28.2.0",
